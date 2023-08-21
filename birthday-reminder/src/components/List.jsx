@@ -18,6 +18,11 @@ const List = ({people,img,article}) => {
         </>
     )
 }
+/*
+applied propTypes and pass multiple props
+utilized Tailwind CSS
+utilized callback function "map()"
+*/
 List.propTypes = {
     people: propTypes.array.isRequired,
     img:propTypes.string.isRequired,
